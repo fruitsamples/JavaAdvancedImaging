@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXApplicationTarget section */
+		B143E416052DF861008F56D6 /* MedicalApp */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = B2297CAD0C148BCF002D5B5C /* Build configuration list for PBXApplicationTarget "MedicalApp" */;
+			buildPhases = (
+				B143E412052DF861008F56D6 /* Sources */,
+				B143E413052DF861008F56D6 /* Resources */,
+				B143E414052DF861008F56D6 /* JavaArchive */,
+				B143E415052DF861008F56D6 /* Frameworks */,
+			);
+			dependencies = (
+			);
+			name = MedicalApp;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = MedicalApp;
+			productReference = B143E417052DF861008F56D6 /* MedicalApp.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MedicalApp</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MedicalApp</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>Java</key>
+	<dict>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/MedicalApp.jar</string>
+		<key>JVMVersion</key>
+		<string>1.4+</string>
+		<key>MainClass</key>
+		<string>MedicalApp</string>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		B143E41E052DF926008F56D6 /* DicomDecoder.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E3FD052DF81F008F56D6 /* DicomDecoder.java */; };
+		B143E41F052DF926008F56D6 /* Focusable.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E3FE052DF81F008F56D6 /* Focusable.java */; };
+		B143E420052DF926008F56D6 /* HistogramFrame.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E3FF052DF81F008F56D6 /* HistogramFrame.java */; };
+		B143E421052DF926008F56D6 /* ImageGridLayout.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E400052DF81F008F56D6 /* ImageGridLayout.java */; };
+		B143E422052DF926008F56D6 /* ImagePane.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E401052DF81F008F56D6 /* ImagePane.java */; };
+		B143E423052DF926008F56D6 /* JaiI18N.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E402052DF81F008F56D6 /* JaiI18N.java */; };
+		B143E424052DF926008F56D6 /* MedicalApp.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E403052DF81F008F56D6 /* MedicalApp.java */; };
+		B143E425052DF926008F56D6 /* MedicalAppConstants.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E404052DF81F008F56D6 /* MedicalAppConstants.java */; };
+		B143E426052DF926008F56D6 /* MedicalAppOpImage.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E405052DF81F008F56D6 /* MedicalAppOpImage.java */; };
+		B143E427052DF926008F56D6 /* MedicalAppState.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E406052DF81F008F56D6 /* MedicalAppState.java */; };
+		B143E428052DF926008F56D6 /* MedicalImagePane.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E407052DF81F008F56D6 /* MedicalImagePane.java */; };
+		B143E429052DF926008F56D6 /* MedicalPropertyChangeSupport.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E408052DF81F008F56D6 /* MedicalPropertyChangeSupport.java */; };
+		B143E42A052DF926008F56D6 /* MultipleImagePane.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E409052DF81F008F56D6 /* MultipleImagePane.java */; };
+		B143E42B052DF926008F56D6 /* ResizePolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E40A052DF81F008F56D6 /* ResizePolicy.java */; };
+		B143E42C052DF926008F56D6 /* UtilityMenuPane.java in Sources */ = {isa = PBXBuildFile; fileRef = B143E40B052DF81F008F56D6 /* UtilityMenuPane.java */; };
+		B143E42D052DF992008F56D6 /* BeforeLoad.bmp in JavaArchive */ = {isa = PBXBuildFile; fileRef = B143E40E052DF845008F56D6 /* BeforeLoad.bmp */; settings = {JAVA_ARCHIVE_SUBDIR = images; }; };
+		B143E42E052DF992008F56D6 /* exit.gif in JavaArchive */ = {isa = PBXBuildFile; fileRef = B143E40F052DF845008F56D6 /* exit.gif */; settings = {JAVA_ARCHIVE_SUBDIR = images; }; };
+		B143E42F052DF992008F56D6 /* open.gif in JavaArchive */ = {isa = PBXBuildFile; fileRef = B143E410052DF845008F56D6 /* open.gif */; settings = {JAVA_ARCHIVE_SUBDIR = images; }; };
+		B143E430052DF992008F56D6 /* MedicalApp_en.properties in JavaArchive */ = {isa = PBXBuildFile; fileRef = B143E411052DF854008F56D6 /* MedicalApp_en.properties */; settings = {JAVA_ARCHIVE_SUBDIR = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B143E3FD052DF81F008F56D6 /* DicomDecoder.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = DicomDecoder.java; sourceTree = "<group>"; };
+		B143E3FE052DF81F008F56D6 /* Focusable.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = Focusable.java; sourceTree = "<group>"; };
+		B143E3FF052DF81F008F56D6 /* HistogramFrame.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = HistogramFrame.java; sourceTree = "<group>"; };
+		B143E400052DF81F008F56D6 /* ImageGridLayout.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ImageGridLayout.java; sourceTree = "<group>"; };
+		B143E401052DF81F008F56D6 /* ImagePane.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ImagePane.java; sourceTree = "<group>"; };
+		B143E402052DF81F008F56D6 /* JaiI18N.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = JaiI18N.java; sourceTree = "<group>"; };
+		B143E403052DF81F008F56D6 /* MedicalApp.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalApp.java; sourceTree = "<group>"; };
+		B143E404052DF81F008F56D6 /* MedicalAppConstants.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalAppConstants.java; sourceTree = "<group>"; };
+		B143E405052DF81F008F56D6 /* MedicalAppOpImage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalAppOpImage.java; sourceTree = "<group>"; };
+		B143E406052DF81F008F56D6 /* MedicalAppState.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalAppState.java; sourceTree = "<group>"; };
+		B143E407052DF81F008F56D6 /* MedicalImagePane.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalImagePane.java; sourceTree = "<group>"; };
+		B143E408052DF81F008F56D6 /* MedicalPropertyChangeSupport.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MedicalPropertyChangeSupport.java; sourceTree = "<group>"; };
+		B143E409052DF81F008F56D6 /* MultipleImagePane.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = MultipleImagePane.java; sourceTree = "<group>"; };
+		B143E40A052DF81F008F56D6 /* ResizePolicy.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ResizePolicy.java; sourceTree = "<group>"; };
+		B143E40B052DF81F008F56D6 /* UtilityMenuPane.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = UtilityMenuPane.java; sourceTree = "<group>"; };
+		B143E40E052DF845008F56D6 /* BeforeLoad.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = BeforeLoad.bmp; path = images/BeforeLoad.bmp; sourceTree = "<group>"; };
+		B143E40F052DF845008F56D6 /* exit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = exit.gif; path = images/exit.gif; sourceTree = "<group>"; };
+		B143E410052DF845008F56D6 /* open.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = open.gif; path = images/open.gif; sourceTree = "<group>"; };
+		B143E411052DF854008F56D6 /* MedicalApp_en.properties */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = MedicalApp_en.properties; sourceTree = "<group>"; };
+		B143E417052DF861008F56D6 /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B143E415052DF861008F56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B143E3F8052DF7F5008F56D6 = {
+			isa = PBXGroup;
+			children = (
+				B143E3FD052DF81F008F56D6 /* DicomDecoder.java */,
+				B143E3FE052DF81F008F56D6 /* Focusable.java */,
+				B143E3FF052DF81F008F56D6 /* HistogramFrame.java */,
+				B143E400052DF81F008F56D6 /* ImageGridLayout.java */,
+				B143E401052DF81F008F56D6 /* ImagePane.java */,
+				B143E402052DF81F008F56D6 /* JaiI18N.java */,
+				B143E403052DF81F008F56D6 /* MedicalApp.java */,
+				B143E404052DF81F008F56D6 /* MedicalAppConstants.java */,
+				B143E405052DF81F008F56D6 /* MedicalAppOpImage.java */,
+				B143E406052DF81F008F56D6 /* MedicalAppState.java */,
+				B143E407052DF81F008F56D6 /* MedicalImagePane.java */,
+				B143E408052DF81F008F56D6 /* MedicalPropertyChangeSupport.java */,
+				B143E409052DF81F008F56D6 /* MultipleImagePane.java */,
+				B143E40A052DF81F008F56D6 /* ResizePolicy.java */,
+				B143E40B052DF81F008F56D6 /* UtilityMenuPane.java */,
+				B143E40D052DF82A008F56D6 /* Images */,
+				B143E40C052DF824008F56D6 /* Resources */,
+				B143E418052DF861008F56D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B143E40C052DF824008F56D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B143E411052DF854008F56D6 /* MedicalApp_en.properties */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B143E40D052DF82A008F56D6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B143E40E052DF845008F56D6 /* BeforeLoad.bmp */,
+				B143E40F052DF845008F56D6 /* exit.gif */,
+				B143E410052DF845008F56D6 /* open.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B143E418052DF861008F56D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B143E417052DF861008F56D6 /* MedicalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXJavaArchiveBuildPhase section */
+		B143E414052DF861008F56D6 /* JavaArchive */ = {
+			isa = PBXJavaArchiveBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B143E42D052DF992008F56D6 /* BeforeLoad.bmp in JavaArchive */,
+				B143E42E052DF992008F56D6 /* exit.gif in JavaArchive */,
+				B143E42F052DF992008F56D6 /* open.gif in JavaArchive */,
+				B143E430052DF992008F56D6 /* MedicalApp_en.properties in JavaArchive */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXJavaArchiveBuildPhase section */
+
+/* Begin PBXProject section */
+		B143E3FC052DF7F5008F56D6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B2297CAC0C148BCF002D5B5C /* Build configuration list for PBXProject "MedicalApp" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = B143E3F8052DF7F5008F56D6;
+			productRefGroup = B143E418052DF861008F56D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B143E416052DF861008F56D6 /* MedicalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B143E413052DF861008F56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B143E412052DF861008F56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B143E41E052DF926008F56D6 /* DicomDecoder.java in Sources */,
+				B143E41F052DF926008F56D6 /* Focusable.java in Sources */,
+				B143E420052DF926008F56D6 /* HistogramFrame.java in Sources */,
+				B143E421052DF926008F56D6 /* ImageGridLayout.java in Sources */,
+				B143E422052DF926008F56D6 /* ImagePane.java in Sources */,
+				B143E423052DF926008F56D6 /* JaiI18N.java in Sources */,
+				B143E424052DF926008F56D6 /* MedicalApp.java in Sources */,
+				B143E425052DF926008F56D6 /* MedicalAppConstants.java in Sources */,
+				B143E426052DF926008F56D6 /* MedicalAppOpImage.java in Sources */,
+				B143E427052DF926008F56D6 /* MedicalAppState.java in Sources */,
+				B143E428052DF926008F56D6 /* MedicalImagePane.java in Sources */,
+				B143E429052DF926008F56D6 /* MedicalPropertyChangeSupport.java in Sources */,
+				B143E42A052DF926008F56D6 /* MultipleImagePane.java in Sources */,
+				B143E42B052DF926008F56D6 /* ResizePolicy.java in Sources */,
+				B143E42C052DF926008F56D6 /* UtilityMenuPane.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2297CA60C148BCE002D5B5C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		B2297CA70C148BCE002D5B5C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		B2297CA80C148BCE002D5B5C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		B2297CA90C148BCE002D5B5C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = MedicalApp;
+			};
+			name = Development;
+		};
+		B2297CAA0C148BCE002D5B5C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = MedicalApp;
+			};
+			name = Deployment;
+		};
+		B2297CAB0C148BCE002D5B5C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				JAVA_ARCHIVE_COMPRESSION = NO;
+				JAVA_COMPILER = /usr/bin/javac;
+				JAVA_ONLY = YES;
+				JAVA_SOURCE_SUBDIR = .;
+				PRODUCT_NAME = MedicalApp;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2297CAC0C148BCF002D5B5C /* Build configuration list for PBXProject "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2297CA60C148BCE002D5B5C /* Development */,
+				B2297CA70C148BCE002D5B5C /* Deployment */,
+				B2297CA80C148BCE002D5B5C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B2297CAD0C148BCF002D5B5C /* Build configuration list for PBXApplicationTarget "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2297CA90C148BCE002D5B5C /* Development */,
+				B2297CAA0C148BCE002D5B5C /* Deployment */,
+				B2297CAB0C148BCE002D5B5C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B143E3FC052DF7F5008F56D6 /* Project object */;
+}
